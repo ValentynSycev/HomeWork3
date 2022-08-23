@@ -163,6 +163,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     padding: 10px 32px;
+    border: none;
 }
 
 .modal-open-btn:hover,
