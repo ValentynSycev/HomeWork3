@@ -268,9 +268,9 @@ body {
 .headline-list {
     text-align: center;
     flex-basis: calc((100%-90)/4);
-    background-color: var(--background-color-white);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    background-color: var(--background-color-white);
 }
 
 .name-employee {
@@ -377,7 +377,7 @@ body {
     background:var(--background-color-grey);
     border-radius: 4px;
     color: var(--title-color);
-    padding: 2px 22px;
+    padding: 6px 22px;
     border: none;
 }
 
@@ -395,7 +395,7 @@ body {
 
 /* =======project====== */
 .project {
-    flex-basis: calc((100% - 60)/3)
+    flex-basis: calc((100% - 60px)/3)
 }
 
 .project-list {
